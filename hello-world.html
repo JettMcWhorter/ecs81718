@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!-- HTML5 Hello world by kirupa - http://www.kirupa.com/html5/getting_your_feet_wet_html5_pg1.htm -->
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<title>Hello...</title>
+<style type="text/css">
+#mainContent {
+	font-family: sans-serif;
+	font-size: xx-large;
+	font-weight: bold;
+	background-color: #FF0000;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+}
+.buttonStyle {
+	border-radius: 100px;
+	border: thick solid #FFA50
+	padding: 50px;
+	background-color: #FFFF00;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: bold;
+	color: #00FF00;
+	width: 750px;
+}
+
+.buttonStyle:hover {
+	border: thick solid #0000FF;
+	background-color: #FF00FF;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+.buttonStyle:active {
+	border: thin solid #FFFFFF;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+<div id="mainContent">
+<p id="helloText" color="white">?</p>
+<button id="clickButton" class="buttonStyle">click for free raspberries (not clickbait)</button>
+</div>
+<script> 
+var myButton = document.getElementById("clickButton");
+var myText = document.getElementById("helloText");
+
+myButton.addEventListener('click', doSomething, false)
+
+function doSomething() {
+	myText.textContent = "SCHMEP";
+}
+</script>
+
+</body>
+</html>
+<!--heheh I'm commenting-->
+<h1>I'm so dastardly</h1>
