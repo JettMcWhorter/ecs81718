@@ -8,6 +8,16 @@ h2 {
     color:#77FFC4;
 }
 body {
+    background-image: url("http://ak0.picdn.net/shutterstock/videos/12889550/thumb/1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: Questrial;
+}
+img {
+    width: 250px;
+    height: 270px;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #0e95af;
+    border-width: 2px;
 }
